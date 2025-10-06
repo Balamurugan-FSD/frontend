@@ -1,0 +1,178 @@
+<html>
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+
+        .container {
+            padding: 0px;
+        }
+
+        .nav {
+            background: rgb(255, 255, 255);
+            /* text-align: center; */
+            padding: 15px 50px;
+            /* margin-bottom: 5px; */
+            border: 3px solid white;
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            justify-content: space-between;
+
+        }
+
+        /* .nav {
+            position: fixed;
+            top: 0;
+            left:0;
+            width:50%;
+            z-index:500%;
+        } */
+
+        .nav img {
+            height: 35px;
+        }
+
+        a {
+            text-decoration: none;
+            color: lightslategray;
+        }
+
+        a:hover {
+            color: rgb(209, 24, 24);
+        }
+
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 0px;
+        }
+
+
+        .grid-item {
+
+            /* background-image: url(/props/CS); */
+            /* border: 3px solid hotpink; */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        /* .grid-item img{
+
+    background-repeat: repeat;
+    background-size: 100px;
+    background-position: center;
+        } */
+
+        /* button {
+            width: 100px;
+            height: 40px;
+            background-color: whitesmoke;
+            border-radius: 10px;
+        } */
+
+        .login-area {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            gap: 15px;
+            background: white;
+            padding: 20px;
+            /* border: 2px solid lightslategray; */
+            border-radius: 10px;
+            height: 35vh;
+        }
+
+
+        .login-form input {
+            padding: 10px;
+            border: 1px solid rgb(209, 24, 24);
+            border-radius: 5px;
+        }
+
+        label {
+            color: rgb(209, 24, 24);    
+            font-weight: bold;
+        }
+
+
+        .login-btn {
+            display: inline-block;
+            text-align: center;
+            background: whitesmoke  ;
+            color: rgb(209, 24, 24);  
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 92%;
+            font-size: 18px;
+        }
+
+        .login-btn:hover {
+            background: rgb(209, 24, 24);
+            color: white;
+        }
+
+        span {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="nav">
+
+            <!-- <a href="#"><</a> -->
+            <img src="props/credo-logo.png">
+            <a href="#">Home</a>
+            <a href="ecom.html" target="_blank">Portfolio</a>
+            <a href="#">Course</a>
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+
+        </div>
+
+
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="props/CS" height="100%">
+            </div>
+
+            <div class="grid-item login-area">
+                <form class="login-form">
+                    <label>Username</label>
+                    <input type="text" required placeholder="Username" width="100%" maxlength="10">
+                    <label>Password</label>
+                    <input type="password" required placeholder="Password" width="100%" maxlength="8">
+                    <a href="#">Forget password?</a>
+                    <a href="ecom.html" target="_blank" class="login-btn">Login</a>
+                    <span>Don't have an account? <a href="#"> Signup</a></span>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
