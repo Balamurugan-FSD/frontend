@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diwali Special</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #fff8f9;
+    }
+
+    header ul {
+      background-color: #ef90db;
+      padding: 20px;
+      box-shadow: 0px 4px 10px #FFFFF0;
+    }
+
+    .nav-link {
+      color: rgba(0, 0, 0, 0.7);
+      font-weight: bold;
+    }
+
+    .nav-link:hover {
+      background-color: #cd5eb5c6;
+      padding: 5px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .container {
+      position: relative;
+      width: 100%;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+
+    .bg {
+      margin: 2px;
+      width: 100%;
+      height: 80vh;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .wish {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 20px 30px;
+      border-radius: 8px;
+      text-align: center;
+      width: 90%;
+      max-width: 850px;
+      z-index: 2;
+      color: #333;
+      background-color: rgba(255, 255, 255, 0.85);
+    }
+
+    .wish h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3rem;
+      color: #ef49cb;
+    }
+
+    .wish h4 {
+      font-weight: bold;
+      color: #0056b3;
+    }
+
+    .wish p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+    }
+
+    .wish button {
+      background-color: #ef49cb;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+      font-size: 1em;
+    }
+
+    .wish button:hover {
+      background-color: #f524b6;
+    }
+
+    .collect {
+      margin: 2px;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      /* align-items: center; */
+    }
+
+    footer {
+      background-color: #ef90db;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 2px;
+    }
+
+    footer .social-icons i {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: white;
+      cursor: pointer;
+    }
+
+    footer .social-icons i:hover {
+      color: #333;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <ul class="nav nav-pills nav-fill">
+      <li class="nav-item">
+        <img src="./diwali/candel.png" width="30" alt="Diwali candle" />
+        <img src="./diwali/diwali.png" width="80" alt="Diwali logo" />
+      </li>
+      <li class="nav-item"><a class="nav-link" href="#">HOME</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">EVENTS</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">ABOUT US</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">CONTACTS</a></li>
+      <li>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        </form>
+      </li>
+    </ul>
+  </header>
+
+  <main>
+    <div class="container">
+      <img class="bg" src="./diwali/n1.png" alt="Diwali background" />
+      <div class="wish">
+        <h5>HAPPY</h5>
+        <h1>Diwali</h1>
+        <h4>FESTIVAL OF LIGHTS</h4>
+        <p>
+          "Happy Diwali to my incredible friends and family! Thinking of all the wonderful memories we've shared and
+          wishing you a festival as bright and beautiful as your spirits. May this Diwali bring you everything you wish
+          for and more. Love you all!"
+        </p>
+        <button onclick="location.href='#Best Wishes'">Best Wishes</button>
+      </div>
+    </div>
+    <div class="collect">
+      <div class="card" style="width:280px;">
+        <img src="./diwali/collect-7.jpg" class="card-img-top" alt="...">
+      </div>
+      <div class="card" style="width: 278px;">
+        <img src="./diwali/collect-1.jpg" class="card-img-top" alt="...">
+      </div>
+      <div class="card" style="width: 300px;">
+        <img src="./diwali/collect-2.png" class="card-img-top" alt="...">
+      </div>
+      <div class="card" style="width:235px;">
+        <img src="./diwali/collect-3.jpg" class="card-img-top" alt="...">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-youtube"></i>
+    </div>
+    <p>&copy; 2025 Diwali Special. All rights reserved.</p>
+  </footer>
+</body>
+</html>
