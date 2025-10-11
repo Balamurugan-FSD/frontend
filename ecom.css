@@ -1,0 +1,713 @@
+* {
+     margin: 0;
+      padding: 0;
+      box-sizing: border-box;     
+    }
+
+body {
+
+    background-color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo a {
+    text-decoration: none;
+    font-family: "Great Vibes", cursive;
+    font-weight: bold;
+    font-size: 40px;
+    font-style: italic;
+    color: black;
+}
+
+.nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(194, 23, 23);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 4px;
+}
+
+.icon span a {
+    text-decoration: none;
+    color: grey;
+    font-weight: lighter;
+    font-size: small;
+
+}
+
+.icon a {
+    margin-left: 15px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 24% 25% 25% 25%;
+    grid-template-rows: 350px 350px;
+    gap: 10px;
+    /* padding: 10px; */
+    max-width: 1300px;
+    margin: 10px auto 40px auto;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.c1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    background-image: url(ecom/C1.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    /* width: 94%;
+      height: auto; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    /* position: relative; */
+    padding-left: 40px;
+}
+
+
+.c1 h3 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Great Vibes", cursive;
+    margin-bottom: 15px;
+}
+
+.c1 p {
+    font-size: 14px;
+    color: #555;
+    max-width: 300px;
+    margin-bottom: 20px;
+}
+
+.c1 a {
+    font-size: 20px;
+    font-weight: 600;
+    color: inherit;
+    /* padding-bottom: 3px; */
+    text-decoration: none;
+    text-decoration-color: red;
+
+}
+
+.c1 a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+.c2 {
+    grid-column-start: 3;
+    background-image: url(ecom/C2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* width: 88%;
+      height: auto; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    /* position: relative; */
+}
+
+.c2 h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.c2 label {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 15px;
+}
+
+.c2 a {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.c3 {
+    grid-column-start: 4;
+    background-image: url(ecom/C3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+.c3 h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.c3 label {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 15px;
+}
+
+.c3 a {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+.c4 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    background-image: url(ecom/C4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.c4 h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.c4 label {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 15px;
+}
+
+.c4 a {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+.c5 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+    background-image: url(ecom/C5.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.c5 h3 {
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+.c5 label {
+    font-size: 14px;
+    color: rgb(85, 85, 85);
+    margin-bottom: 15px;
+}
+
+.c5 a {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+
+.c2 a:hover,
+.c3 a:hover,
+.c4 a:hover,
+.c5 a:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.menu-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.h-menu ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 10px 10px;
+
+}
+
+.l2 h4 {
+    font-size: 18px;  
+    font-weight: 600;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.h-menu ul li a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.781);
+    font-weight: 400;
+    font-size: medium;
+}
+
+.h-menu ul li a:hover {
+
+    text-decoration: underline;
+    text-decoration-color: red;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.products-1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    gap: 20px;
+    max-width: 1300px;
+    margin: 50px auto;
+}
+
+
+.p1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    padding: 5px 0;
+
+
+}
+
+.p1 img {
+    width: 100%;
+    height: auto;
+}
+
+.p1 .style {
+    margin: 2px 0;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.p1 .star {
+    width: 80px;
+
+}
+
+.p1 span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.old {
+    text-decoration: line-through;
+    color: gray;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+
+.new,
+.oof,
+.sale {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 4px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px;
+}
+
+
+.new {
+    background-color: green;
+}
+
+.sale {
+    background-color: red;
+}
+
+.oof {
+    background-color: black;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+.banner {
+  position: relative;
+  width: 100%;
+  height: 70vh; 
+  background-image: url('ecom/B1.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto; 
+  max-width: 1300px;  
+}
+
+.l1 {
+  display: block;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #c0392b; 
+  margin-bottom: 15px;
+}
+
+.l3 {
+  display: block;
+  font-size: 70px;
+  font-weight: bold;
+  font-family: "Great Vibes", cursive;
+  color: black;
+  margin-bottom: 20px;
+}
+
+
+.shop {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-bottom: 2px solid red;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+}
+
+.shop:hover {
+  color: red;
+  border-bottom-color: black;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+.tag{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:left;
+    word-spacing: 2px;
+    font-size: large;
+    font-weight: 500;
+    text-decoration-line: underline ;
+    text-decoration-color: #c0392b;
+    text-decoration-thickness: 3px;
+}
+
+
+.collection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  /* gap: 50px; */
+  column-gap: 150px;
+  row-gap: 50px;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.product img {
+  /* width: 100px;
+  height: 100px; */
+  /* object-fit: cover; */
+  border-radius: 5px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.details .name {
+  font-weight: 100;
+  font-size:small;
+  margin: 2px;
+  
+}
+
+.details .price {
+  color: #000;
+  font-weight: bold;
+}
+ 
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.banner-2{
+    position: relative;
+    width: 100%;
+    height:120vh;
+    background-image: url('ecom/banner-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;     
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.fecilities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.facility {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.fe1 {
+  width: 50px;
+  height: 50px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.t1 {
+  font-size: large;
+  font-weight: 600;
+}
+
+.t2 {
+  font-size: medium;
+  font-weight: 400;
+  color: #555;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.trend {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    width: 100%;        
+}
+
+.trend img {
+    width: 100%;          
+    height: 200px;  
+    /* display: block;   */
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+.final {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: white;
+    padding: 40px 0;
+    gap: 40px;
+}
+
+
+.r1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 220px;
+    line-height: 1.5;
+}
+
+.r1 a {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 40px;
+    font-weight:bold;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.r1 p {
+    font-size: 14px;
+    color: #555;
+}
+
+.D1 {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.symbol {
+    width: 30px;
+    height: 30px;
+}
+
+.r2 {
+    display: flex;
+    flex-direction: column;
+    min-width: 120px;
+}
+
+.r2 span {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.r2 ul {
+    padding: 0;
+    margin: 0;
+}
+
+.r2 li {
+    list-style: none;
+    color: #555;
+    margin-bottom: 6px;
+    cursor: pointer;
+}
+
+.r2 li:hover {
+    color: black;
+}
+
+
+.r3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.r3 span {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.r3 input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 180px;
+    outline: none;
+}
+
+.r3 button {
+    background-color: #d33;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.r3 button:hover {
+    background-color: #b22;
+}
+
+
+.r3 img.symbol {    
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;       
+    margin-top: 10px;
+}
+
+.social-icons .symbol {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.social-icons .symbol:hover {
+    opacity: 0.7;
+}
+
+/* -------------------------------------------------------------------------------------------------------------- */
+
+
+/* footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    } */
+
